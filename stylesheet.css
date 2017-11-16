@@ -1,0 +1,245 @@
+body {
+	width: 900px;
+	color: #DDDDDD;
+	background-color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	font-family: 'Merriweather';
+}
+
+#container {
+	background: url(textured-background.jpg);
+	border-left: 2px solid #e0a821;
+	border-right: 2px solid #e0a821;
+	min-height: 100%;	
+}
+
+#flavor {
+	background-size: 675px auto;
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+#content {
+	min-height: 100%;
+	margin-top: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 20px 40px;
+	text-align: justify;
+}
+
+header {
+	margin: 0 20 20 20;
+	padding: 10 50;
+	position: relative; left: 0; top: 20;
+	font-family:'Open Sans Condensed', bold;
+	color: #EEEEEE;
+	text-align: center;
+	height: 175;
+}
+
+header img {
+	float: left;
+}
+#content, header {
+	background-image: url(50dark.png);
+	border-radius: 25px;
+}
+
+p {
+	line-height: 150%;
+	padding: 10px;
+}
+
+nav li {
+	display: inline-block;
+	background-image: url(50dark.png);
+	list-style: none;
+	line-height: 2em;
+	padding: 0 10px;
+	margin: 3px 0 0;
+}
+
+a:hover {
+	color: #e0a821;
+	text-decoration: none;
+}
+
+nav a {
+	display: block;
+	width: 100%;
+	color: #ddd;
+	text-decoration: none;
+}
+
+#content img {
+	display: block;
+	margin: auto;
+}
+
+#gallery {
+	float: right;
+}
+
+#shop {
+	padding: 8px;
+	text-align: center;
+	background-color: #000;
+	border: 1px solid #e0a821;
+	border-radius: 5px;
+	max-width: 90%;
+	color: white;
+	margin: 10px auto 0px;
+}
+
+#shop td {
+	text-align: center;
+}
+
+#shop form {
+	margin: 0;
+}
+
+#shop span {
+	display: block;
+	width: 6em;
+}
+
+footer {
+	width: 35%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	padding-bottom: .5em;
+	text-align: center;
+}
+
+h1 {
+	font-size: 300%;
+	margin-top: -.5em;
+	margin-bottom: -.25em;
+	color: #e0a821;
+	text-shadow: 1px -1px 1px #FFFFFF;
+}
+
+h2 {
+	font-size: x-large;
+	text-align: center;
+	color: #eee;
+	display: block;
+	margin: auto;
+	padding: 10px 2em;
+	width: 40%;
+	border-bottom: 1px solid #e0a821;
+}
+
+h3 {
+	text-align: left;
+	font-style: italic;
+	margin-bottom: -.6em;
+	border-bottom: 1px solid #e0a821;
+	display: block;
+	width: 30%;
+}
+
+aside {
+	font-size: 140%;
+	line-height: 140%;
+	width: 75%;
+}
+
+.longname {
+	margin-top: 5px;
+	text-transform: uppercase;
+	font-size: 120%;
+	letter-spacing: 2px;
+}
+
+.welcome {
+	font-weight: bold;
+	font-size: .9em;
+	text-align: left;
+	margin-bottom: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #e0a821;
+}
+
+a[href^="mailto"] {
+	text-decoration: none;
+	color: #e0a821;
+}
+
+a[href^="mailto"]:hover:after {
+	color: #e0a821;
+	content: " > " attr(title);
+}
+
+#content ul {
+	padding-bottom: .5em;
+	line-height: 150%;
+}
+
+.action {
+	font-variant: small-caps;
+	background: #000;
+	border: 1px solid #e0a821;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 10px;
+}
+
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.midnotice {
+	padding: 8px;
+	text-align: center;
+	background-color: #000;
+	border: 1px solid #e0a821;
+	border-radius: 5px;
+	color: e0a821;
+	max-width: 50%;
+	margin: 1.5em;
+}
+
+.midnotice a {
+	color: white;
+}
+
+.rightnotice {
+	padding: 8px;
+	text-align: center;
+	background-color: #000;
+	border: 1px solid #e0a821;
+	border-radius: 5px;
+	color: e0a821;
+	float: right;
+	max-width: 30%
+}
+	
+.footnote {
+	font-style: italic;
+	font-size: .7em;
+}
+
+@media print {
+	.noprint {
+		display: none !important;
+	}
+}
+
+.printonly {
+	display: none;
+}
+
+.clearer {
+	clear: both;
+}

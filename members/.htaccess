@@ -1,0 +1,6 @@
+AuthUserFile /webroot/i/a/iatse004/iatse320.org/etc/htpasswd
+AuthName "This area is reserved for members and guests of IATSE Local 320. For access, please contact the Executive Board"
+AuthType Basic
+<Limit GET POST PUT>
+Require user member
+</Limit>
