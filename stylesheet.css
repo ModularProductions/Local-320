@@ -35,7 +35,7 @@ header {
 	margin: 0 20 20 20;
 	padding: 10 50 0;
 	position: relative; left: 0; top: 20;
-	font-family:'Open Sans Condensed', bold;
+	font-family:'Open Sans Condensed', 'Helvetica';
 	color: #EEEEEE;
 	text-align: center;
 	overflow: auto;
