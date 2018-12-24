@@ -19,6 +19,7 @@ body {
 	background-size: 675px auto;
 	background-position: right top;
 	background-repeat: no-repeat;
+	padding-bottom: 70px;
 }
 
 #content {
@@ -32,17 +33,18 @@ body {
 
 header {
 	margin: 0 20 20 20;
-	padding: 10 50;
+	padding: 10 50 0;
 	position: relative; left: 0; top: 20;
 	font-family:'Open Sans Condensed', bold;
 	color: #EEEEEE;
 	text-align: center;
-	height: 175;
+	overflow: auto;
 }
 
 header img {
 	float: left;
 }
+
 #content, header {
 	background-image: url(50dark.png);
 	border-radius: 25px;
@@ -109,11 +111,13 @@ nav a {
 
 footer {
 	width: 35%;
+	height: 70px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 20px;
-	padding-bottom: .5em;
+	margin-top: -70px;
+	/* padding-bottom: .5em; */
 	text-align: center;
+	overflow: hidden;
 }
 
 h1 {
@@ -231,9 +235,7 @@ a[href^="mailto"]:hover:after {
 }
 
 @media print {
-	.noprint {
-		display: none !important;
-	}
+	nav {display: none !important;}
 }
 
 .printonly {
